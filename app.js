@@ -38,7 +38,7 @@ while(k <= 100)
     k++;
 }
 let l = 1;
-while(l <= 100)
+do
 {
     if(l % 3 == 0 && l % 5 != 0)
     {
@@ -52,7 +52,8 @@ while(l <= 100)
     {
         console.log("FIZZBUZZ");
     }
-}
+    l++;
+}while(l <= 100)
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
 let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
@@ -71,7 +72,3 @@ for(let m = 0; m <= n; m++)
         break;
     }
 }
-// Exercise 5 Section
-console.log("EXERCISE 5:\n==========\n");
-
-console.log("Hello World!\n==========\n");
